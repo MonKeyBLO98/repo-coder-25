@@ -63,17 +63,11 @@ a{
     border-radius: 40px;
 }
 
-
-  
-
-
-
 main{
     width: 90%;
     margin: 0 auto;
     background-color: rgba(178, 243, 229, 0.767);
 }
-
 main section{
     width: 90%;
     margin: 0 auto;
@@ -85,13 +79,11 @@ section h2{
     background-color: rgba(34, 155, 10, 0.411);
     margin-bottom: 10px;
     padding: 5px;
-    font-size: 30px;
-}
 
+}
 section h3{
     color: rgb(63, 51, 3);
     margin-bottom: 10px;
-    font-size: 25px;
 }
 
 .button{
@@ -105,7 +97,6 @@ section h3{
     padding:  10px;
     border-radius: 15px;
 }
-
 .button a:hover{
     background-color: rgb(18, 161, 37);
     color: white;
@@ -118,20 +109,10 @@ section h3{
     width: 128px;
     height: 128px;
 }
-
-
-div .card-mejores-recetas{
-    display: inline-block;
-    margin: 10px 45px;
-    text-align: center;
-    font-size: 20px;
+.carousel-inner img{
+    width: 2*128px;
+    height: 2*128px;
 }
-
-div .card-mejores-recetas img{
-    width: 128px;
-    height: 128px;
-}
-
 
 
 /*--------------- Productos ---------------*/
@@ -139,101 +120,22 @@ div .card-mejores-recetas img{
     background-color: rgba(34, 155, 10, 0.411);
 }
 
-
-
-.contenedor-categoria {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    /* background-color: brown; */
+/*--------------- Recetas ---------------*/
+.bg-recetas {
+    background-color: rgba(26, 189, 153, 0.411);
 }
 
-.card-categoria {
-    display: flex;
-    width: 20%;
-    justify-content: center;
-    text-align: center;
-    font-size: 20px;
-}
-.card-categoria:hover {
+
+/*--------------- Nosotros ---------------*/
+.bg-nosotros{
     background-color: rgba(34, 155, 10, 0.411);
-    border-radius: 20px;
-}
-.card-categoria img{
-    width: 128px;
-    height: 128px;
-}
-
-
-
-
-
-.card-producto{
-    display: inline-block;
-    margin: 10px 15px 20px 15px;
-    padding: 15px;
-    text-align: center;
-    font-size: 10px;
-    background-color: rgba(71, 211, 146, 0.548);
-    width: 150px;
-    height: 170px;
-}
-
-.card-producto .name{
-    width: 100%;
-    height: 55px;
-    font-size: 20px;
-    font-weight: bold;
-}
-.card-producto img{
-    width: 48px;
-    height: 48px;
-}
-
-.card-producto .mas-menos{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-} 
-
-
-/*--------------- Recetas ---------------*/
-
-.card-recetas{
-    display: inline-block;
-    margin: 10px 45px;
-    text-align: center;
-    background-color: rgb(26, 189, 153);
-    font-size: 15px;
-    border-radius: 20px;
-    width: 20%;
-}
-.card-recetas li{
-    list-style: none;
-}
-
-.card-recetas img{
-    width: 64px;
-    height: 64px;
-}
-
-/*--------------- Recetas ---------------*/
-.contenedor-nosotros{
- text-align: center;
-    padding: 5px;
-}
-.contenedor-nosotros p{
-    padding: 5px;
-    font-size: 17px;
-    width: 50%;
-    display: inline-block;
 }
 .pueblo{
-    width: 50%;
+    width: 80%;
 }
 
-/*--------------- Recetas ---------------*/
+
+/*--------------- Contacto ---------------*/
 form{
     background-color: rgb(15, 235, 187);
     padding: 20px;
