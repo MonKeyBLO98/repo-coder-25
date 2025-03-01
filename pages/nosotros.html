@@ -4,32 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros|Mercado el Valle</title>
-    <link rel="icon" href="/image/icons/logo_elValle.jpg" type="image/x-icon">
-    <!-- CSS -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="../image/icons/logo_elValle.jpg" type="image/x-icon">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <!-- HEADER -->
     <header>  
         <!-- Barra de navegacion -->
-        <nav class="navbar-header">
-            <!-- Logo y Titulo -->
-            <ul class="logo-titulo">
-                <li><a href="/index.html"><img src="/image/icons/logo_elValle.jpg" alt="logo el valle"></a></li>
-                <li><h1>Mercado el Valle</h1></li>                                
-            </ul>
-            <!-- Pages -->
-            <ul class="pages">              
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="recetas.html">Recetas</a></li>
-                <li class="hereNow"><a href="#">Nosotros</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-primary">
+            <div class="container-fluid">
+                <!-- Logo y Titulo -->
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../image/icons/logo_elValle.jpg" alt="logo el valle">
+                    Mercado el Valle
+                </a>
+                <!-- Pages -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-body-primary">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="productos.html">Productos</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="productos.html">Agricultura</a></li>
+                                <li><a class="dropdown-item" href="productos.html">Granja</a></li>
+                                <li><a class="dropdown-item" href="productos.html">Pesca</a></li>
+                                <li><a class="dropdown-item" href="productos.html">Mineria</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="recetas.html">Recetas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hereNow" href="#">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>     
     </header>
     <main>
         <section>
@@ -38,7 +67,7 @@
                 <div class="contenedor-nosotros">
                     <p>Bienvenidos a <strong>Mercado el Valle</strong>, una cooperativa formada por apasionados productores locales dedicados a ofrecer lo mejor de la agricultura, la ganadería, la pesca y la minería. Nuestra alianza única nos permite unir fuerzas para brindarte productos frescos y de alta calidad directamente desde su origen, garantizando la trazabilidad y el compromiso con las prácticas sostenibles.</p>
                     <p>En <strong>Mercado el Valle</strong>, creemos en el poder de la comunidad y en la importancia de apoyar a los pequeños y medianos productores. Nos enorgullece ser un puente entre nuestros miembros y los consumidores, promoviendo una economía local más justa y equitativa. Cada producto que encuentras en nuestro mercado cuenta una historia de dedicación y esfuerzo, y estamos comprometidos a mantener estos valores en cada transacción.</p>
-                    <img class="pueblo" src="/image/mapaElValle.png" alt="mapa del pueblo">       
+                    <img class="pueblo" src="../image/mapaElValle.png" alt="mapa del pueblo">       
                     <p>Nuestra misión es no solo vender productos, sino también educar y concienciar sobre la importancia de elegir productos locales y sostenibles. Te invitamos a explorar nuestras categorías y descubrir la diversidad y riqueza de los productos que nuestra cooperativa tiene para ofrecer.</p>
                 </div>
                 <div class="button">

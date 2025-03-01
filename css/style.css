@@ -21,56 +21,39 @@ a{
 }
 
 /*--------------- HEADER ---------------*/
-
-.navbar-header {
-    background-color: rgb(9, 66, 9);
-    display: flex;
-    flex-direction: row;
+.navbar{
+    background-color: rgb(9, 66, 9);    
     padding: 10px 20px;
-
 }
-
-.navbar-header ul {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    list-style: none;
-
-}
-
-.navbar-header li {
-    margin: 0 15px;
-
-}
-
-
-.logo-titulo {
-    width: 40%;
-    justify-content: flex-start;
-}
-.logo-titulo img {
-    width: 64px;
-}
-.logo-titulo h1 {
+.navbar-brand{
     color: rgb(240, 173, 5);
-    font-size: 45px;
+}
+.navbar-brand:hover{
+    color: rgb(240, 173, 5);
+}
+.navbar-collapse {
+    flex-grow: 0;
+    background-color: rgb(34, 155, 10);
+}
+.navbar-collapse a{
+    color:cornsilk;
+}
+.navbar-collapse li:hover{
+    background-color: rgb(23, 105, 7);
 }
 
-.pages {
-    width: 60%;
-    justify-content: flex-end;
+.navbar-collapse a:hover{
+    color:rgb(241, 196, 16);
 }
-.pages li {
-    margin-bottom: 10px;
-}
-.pages a {
-    font-size: 20px;
-    color:cornsilk;
-    padding: 10px;
+.dropdown-menu{
     background-color: rgb(34, 155, 10);
-    border-radius: 20px;
 }
-.pages li.hereNow a,.pages li a:hover {
+.dropdown-menu a:hover{
+    color:rgb(241, 196, 16);
+    background-color: rgb(23, 105, 7);
+}
+
+.nav-link.hereNow{
     color:rgb(241, 196, 16);
     background-color: rgb(23, 105, 7);
 }
