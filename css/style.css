@@ -59,6 +59,14 @@ a{
 }
 
 /*--------------- MAIN ---------------*/
+.category-animation:hover{
+    border-radius: 40px;
+}
+
+
+  
+
+
 
 main{
     width: 90%;
@@ -106,6 +114,12 @@ section h3{
 }
 
 /*--------------- Index ---------------*/
+.card img{
+    width: 128px;
+    height: 128px;
+}
+
+
 div .card-mejores-recetas{
     display: inline-block;
     margin: 10px 45px;
@@ -121,6 +135,11 @@ div .card-mejores-recetas img{
 
 
 /*--------------- Productos ---------------*/
+.bg-producto {
+    background-color: rgba(34, 155, 10, 0.411);
+}
+
+
 
 .contenedor-categoria {
     display: flex;
