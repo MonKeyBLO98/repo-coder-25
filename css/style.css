@@ -161,13 +161,10 @@ textarea{
     font-size: 1rem;
 }
 
-.pie-encuesta{
-    text-align: center;
-}
 
 
-/* Footer */
-footer{
-    text-align: center;
-    background-color: rgba(175, 235, 250, 0.733);
+/*--------------- Footer ---------------*/
+
+ .bg-footer{
+     background-color: rgba(34, 155, 10, 0.8);
 }
