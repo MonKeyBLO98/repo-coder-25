@@ -4,16 +4,64 @@
         @include size-square (128px);
     }
 } 
-
 .carousel-inner{
     img{
         @include size-square (2*128px);
     }
 }
 
+@for $i from 1 through 4 {
+    .category-#{$i}{
+        background-color:transparent
+    }
+}
+
+.category-1:hover{
+    background-color: $category-1;
+    img{
+        transform: scale(1.2,1.2);
+    }
+}
+.category-2:hover{
+    background-color: $category-2;
+    img{
+        transform: scale(1.2,1.2);
+    }
+}
+.category-3:hover{
+    background-color: $category-3;
+    img{
+        transform: scale(1.2,1.2);
+    }
+}
+.category-4:hover{
+    background-color: $category-4;
+    img{
+        transform: scale(1.2,1.2);
+    }
+}
+
+
 /*--------------- Productos ---------------*/
-.bg-producto{
-    background-color: $bg-secondary-color;
+.agricultura{
+    .bg-producto{
+        background-color: $category-1;
+    }    
+}
+.granja{
+    .bg-producto{
+        background-color: $category-2;
+    }
+}
+.pesca{
+    .bg-producto{
+        background-color: $category-3;
+    }
+}
+.mineria{
+    .bg-producto{
+        background-color: $category-4;
+    }
 }
 
 /*--------------- Recetas ---------------*/
@@ -25,6 +73,7 @@
 /*--------------- Nosotros ---------------*/
 .bg-nosotros{
     background-color: $bg-info-color;
+    flex-direction: column;
 }
 .pueblo{
     width: 80%;

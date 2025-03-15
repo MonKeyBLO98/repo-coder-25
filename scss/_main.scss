@@ -12,7 +12,8 @@ main{
         margin: 0 auto;
         padding: 15px 10px 30px 10px;
         h2{
-            @include color-and-bgcolor($text-dark-primary-color,$bg-secondary-color);
+            background-image: linear-gradient(to right,$bg-secondary-color,#ffffff00);
+            color: $text-dark-primary-color;
             margin-bottom: 10px;
             padding: 5px;   
         }

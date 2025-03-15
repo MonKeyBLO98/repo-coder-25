@@ -1,6 +1,6 @@
 /*--------------- HEADER ---------------*/
 .navbar{
-    background-color: $bg-dark-primary-color;    
+    background-image: linear-gradient(to left,$bg-dark-primary-color,$bg-dark-secondary-color);    
     padding: 10px 20px;
 }
 .navbar-brand{

@@ -6,7 +6,7 @@
 /* Text colors */
 /*--------------- HEADER ---------------*/
 .navbar {
-  background-color: rgb(9, 66, 9);
+  background-image: linear-gradient(to left, rgb(9, 66, 9), rgb(23, 105, 7));
   padding: 10px 20px;
 }
 
@@ -61,8 +61,8 @@ main section {
   padding: 15px 10px 30px 10px;
 }
 main section h2 {
+  background-image: linear-gradient(to right, rgba(34, 155, 10, 0.411), rgba(255, 255, 255, 0));
   color: rgb(9, 66, 9);
-  background-color: rgba(34, 155, 10, 0.411);
   margin-bottom: 10px;
   padding: 5px;
 }
@@ -100,9 +100,65 @@ main section h3 {
   height: 256px;
 }
 
+.category-1 {
+  background-color: transparent;
+}
+
+.category-2 {
+  background-color: transparent;
+}
+
+.category-3 {
+  background-color: transparent;
+}
+
+.category-4 {
+  background-color: transparent;
+}
+
+.category-1:hover {
+  background-color: rgba(54, 180, 28, 0.514);
+}
+.category-1:hover img {
+  transform: scale(1.2, 1.2);
+}
+
+.category-2:hover {
+  background-color: rgba(223, 175, 44, 0.514);
+}
+.category-2:hover img {
+  transform: scale(1.2, 1.2);
+}
+
+.category-3:hover {
+  background-color: rgba(23, 142, 211, 0.514);
+}
+.category-3:hover img {
+  transform: scale(1.2, 1.2);
+}
+
+.category-4:hover {
+  background-color: rgba(199, 31, 31, 0.514);
+}
+.category-4:hover img {
+  transform: scale(1.2, 1.2);
+}
+
 /*--------------- Productos ---------------*/
-.bg-producto {
-  background-color: rgba(34, 155, 10, 0.411);
+.agricultura .bg-producto {
+  background-color: rgba(54, 180, 28, 0.514);
+}
+
+.granja .bg-producto {
+  background-color: rgba(223, 175, 44, 0.514);
+}
+
+.pesca .bg-producto {
+  background-color: rgba(23, 142, 211, 0.514);
+}
+
+.mineria .bg-producto {
+  background-color: rgba(199, 31, 31, 0.514);
 }
 
 /*--------------- Recetas ---------------*/
@@ -113,6 +169,7 @@ main section h3 {
 /*--------------- Nosotros ---------------*/
 .bg-nosotros {
   background-color: rgba(26, 189, 153, 0.411);
+  flex-direction: column;
 }
 
 .pueblo {
@@ -167,11 +224,4 @@ body {
 
 a {
   text-decoration: none;
-}
-
-/* Fixer */
-.w-25 {
-  width: 256px !important;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
