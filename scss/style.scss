@@ -1,0 +1,31 @@
+/* import mixin primero */
+@import 'mixin'; 
+/* -------------------- */
+@import 'variables';
+@import 'header';
+@import 'main';
+@import 'pages';
+@import 'footer';
+/* Reset de CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", serif;
+} 
+
+body{
+    background-image: url(../image/bgElValle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Fixer */
+.w-25{
+    width: 2*128px !important;
+}

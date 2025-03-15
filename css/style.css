@@ -1,170 +1,177 @@
-/* Reset de CSS */
- *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Nunito Sans", serif;
-    /* border: 1px solid black; */
-} 
-
-
-
-body{
-    background-image: url(../image/bgElValle.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-a{
-    text-decoration: none;
-}
-
+/* import mixin primero */
+/* MIXIN */
+/* -------------------- */
+/* VARIABLES*/
+/* Background colors */
+/* Text colors */
 /*--------------- HEADER ---------------*/
-.navbar{
-    background-color: rgb(9, 66, 9);    
-    padding: 10px 20px;
+.navbar {
+  background-color: rgb(9, 66, 9);
+  padding: 10px 20px;
 }
-.navbar-brand{
-    color: rgb(240, 173, 5);
+
+.navbar-brand {
+  color: rgb(240, 173, 5);
 }
-.navbar-brand:hover{
-    color: rgb(240, 173, 5);
+
+.navbar-brand:hover {
+  color: rgb(240, 173, 5);
 }
+
 .navbar-collapse {
-    flex-grow: 0;
-    background-color: rgb(34, 155, 10);
+  flex-grow: 0;
+  background-color: rgb(34, 155, 10);
 }
-.navbar-collapse a{
-    color:cornsilk;
+.navbar-collapse a {
+  color: cornsilk;
 }
-.navbar-collapse li:hover{
-    background-color: rgb(23, 105, 7);
+.navbar-collapse a:hover {
+  color: rgb(240, 173, 5);
 }
-
-.navbar-collapse a:hover{
-    color:rgb(241, 196, 16);
-}
-.dropdown-menu{
-    background-color: rgb(34, 155, 10);
-}
-.dropdown-menu a:hover{
-    color:rgb(241, 196, 16);
-    background-color: rgb(23, 105, 7);
+.navbar-collapse li:hover {
+  background-color: rgb(23, 105, 7);
 }
 
-.nav-link.hereNow{
-    color:rgb(241, 196, 16);
-    background-color: rgb(23, 105, 7);
+.dropdown-menu {
+  background-color: rgb(34, 155, 10);
+}
+.dropdown-menu a:hover {
+  color: rgb(240, 173, 5);
+  background-color: rgb(23, 105, 7);
+}
+
+.nav-link.hereNow {
+  color: rgb(240, 173, 5);
+  background-color: rgb(23, 105, 7);
 }
 
 /*--------------- MAIN ---------------*/
-.category-animation:hover{
-    border-radius: 40px;
+.category-animation:hover {
+  border-radius: 40px;
 }
 
-main{
-    width: 90%;
-    margin: 0 auto;
-    background-color: rgba(178, 243, 229, 0.767);
+main {
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgba(178, 243, 229, 0.767);
 }
-main section{
-    width: 90%;
-    margin: 0 auto;
-    padding: 15px 10px 30px 10px;
+main section {
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px 10px 30px 10px;
 }
-
-section h2{
-    color: rgb(9, 66, 9);
-    background-color: rgba(34, 155, 10, 0.411);
-    margin-bottom: 10px;
-    padding: 5px;
-
+main section h2 {
+  color: rgb(9, 66, 9);
+  background-color: rgba(34, 155, 10, 0.411);
+  margin-bottom: 10px;
+  padding: 5px;
 }
-section h3{
-    color: rgb(63, 51, 3);
-    margin-bottom: 10px;
+main section h3 {
+  color: rgb(63, 51, 3);
+  margin-bottom: 10px;
 }
 
-.button{
-    margin-top: 20px;
-    padding: 10px;
-    text-align: center;
+.button {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
 }
-.button a{
-    background-color: rgb(7, 59, 14);
-    color: white;
-    padding:  10px;
-    border-radius: 15px;
+.button a {
+  color: white;
+  background-color: rgb(9, 66, 9);
+  padding: 10px;
+  border-radius: 15px;
 }
-.button a:hover{
-    background-color: rgb(18, 161, 37);
-    color: white;
-    padding:  10px;
-    border-radius: 15px;
+.button a:hover {
+  color: white;
+  background-color: rgb(23, 105, 7);
+  padding: 10px;
+  border-radius: 15px;
 }
 
 /*--------------- Index ---------------*/
-.card img{
-    width: 128px;
-    height: 128px;
-}
-.carousel-inner img{
-    width: 2*128px;
-    height: 2*128px;
+.card img {
+  width: 128px;
+  height: 128px;
 }
 
+.carousel-inner img {
+  width: 256px;
+  height: 256px;
+}
 
 /*--------------- Productos ---------------*/
 .bg-producto {
-    background-color: rgba(34, 155, 10, 0.411);
+  background-color: rgba(34, 155, 10, 0.411);
 }
 
 /*--------------- Recetas ---------------*/
 .bg-recetas {
-    background-color: rgba(26, 189, 153, 0.411);
+  background-color: rgba(26, 189, 153, 0.411);
 }
-
 
 /*--------------- Nosotros ---------------*/
-.bg-nosotros{
-    background-color: rgba(34, 155, 10, 0.411);
-}
-.pueblo{
-    width: 80%;
+.bg-nosotros {
+  background-color: rgba(26, 189, 153, 0.411);
 }
 
+.pueblo {
+  width: 80%;
+}
 
 /*--------------- Contacto ---------------*/
-form{
-    background-color: rgb(15, 235, 187);
-    padding: 20px;
-    border-radius: 5px;
-    margin: 0;
+form {
+  background-color: rgba(26, 189, 153, 0.411);
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0;
 }
 
 label {
-    display: block;
-    margin-bottom: 8px;
-    font-size: 1rem;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1rem;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea{
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 2px solid rgb(5, 71, 60);
-    border-radius: 5px;
-    font-size: 1rem;
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid rgb(9, 66, 9);
+  border-radius: 5px;
+  font-size: 1rem;
 }
 
-
-
-/*--------------- Footer ---------------*/
-
- .bg-footer{
-     background-color: rgba(34, 155, 10, 0.8);
+/*--------------- FOOTER ---------------*/
+.bg-footer {
+  background-color: rgba(34, 155, 10, 0.678);
 }
+
+/* Reset de CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", serif;
+}
+
+body {
+  background-image: url(../image/bgElValle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Fixer */
+.w-25 {
+  width: 256px !important;
+}
+
+/*# sourceMappingURL=style.css.map */

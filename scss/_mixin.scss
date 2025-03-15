@@ -1,0 +1,15 @@
+/* MIXIN */
+@mixin color-and-bgcolor ($color,$bg-color){
+    color: $color;
+    background-color: $bg-color;
+}
+@mixin btn-a ($color,$bg-color){
+    @include color-and-bgcolor($color,$bg-color);
+    padding:  10px;
+    border-radius: 15px;
+}
+
+@mixin size-square ($size){
+    width: $size;
+    height: $size;
+}

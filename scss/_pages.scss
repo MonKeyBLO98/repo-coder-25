@@ -1,0 +1,57 @@
+/*--------------- Index ---------------*/
+.card{
+    img{
+        @include size-square (128px);
+    }
+} 
+
+.carousel-inner{
+    img{
+        @include size-square (2*128px);
+    }
+}
+
+/*--------------- Productos ---------------*/
+.bg-producto{
+    background-color: $bg-secondary-color;
+}
+
+/*--------------- Recetas ---------------*/
+.bg-recetas{
+    background-color: $bg-info-color;
+}
+
+
+/*--------------- Nosotros ---------------*/
+.bg-nosotros{
+    background-color: $bg-info-color;
+}
+.pueblo{
+    width: 80%;
+}
+
+/*--------------- Contacto ---------------*/
+form{
+    background-color: $bg-info-color;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid $bg-dark-primary-color;
+    border-radius: 5px;
+    font-size: 1rem;
+}

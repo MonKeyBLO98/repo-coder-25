@@ -1,0 +1,35 @@
+/*--------------- HEADER ---------------*/
+.navbar{
+    background-color: $bg-dark-primary-color;    
+    padding: 10px 20px;
+}
+.navbar-brand{
+    color: $text-header-color;
+}
+.navbar-brand:hover{
+    color: $text-header-color;
+}
+.navbar-collapse{
+    flex-grow: 0;
+    background-color: $bg-nav-color;
+    a{
+        color: $text-nav-color;
+    }
+    a:hover{
+        color:$text-header-color;
+    }
+    li:hover{
+        background-color: $bg-dark-secondary-color;
+    }
+}
+
+.dropdown-menu{
+    background-color: $bg-nav-color;
+    a:hover{
+        @include color-and-bgcolor($text-header-color,$bg-dark-secondary-color);
+    }    
+}
+
+.nav-link.hereNow{
+    @include color-and-bgcolor($text-header-color,$bg-dark-secondary-color);
+}
